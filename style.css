@@ -1,0 +1,123 @@
+*
+
+/*{
+    background-color: black;
+    margin:0;
+    padding:0;
+}*/
+body {
+    background: black;
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .8) 0, transparent 5%, transparent 10%, rgba(0, 0, 0, .8)), url(./netflix.jpg);
+
+}
+
+.logo {
+    height: 40px;
+    padding-left: 50px;
+    padding-top: 35px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+nav button {
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    outline: 0;
+    padding: 12px 20px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.languagebtn {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    image-rendering: 0;
+    padding: 7px 10px;
+
+}
+
+.languagebtn img {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.header1 {
+    color: white;
+    padding-top: 120px;
+    font-size: xx-large;
+    font-style: inherit
+}
+
+.emailsignup {
+    background: white;
+    padding-top: 0;
+    padding-left: -100px;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.emailbutton {
+    border-style: solid;
+    border: black;
+    border-width: 2px;
+    color: white;
+    padding-top: 20px;
+    background: red;
+    border: 0;
+
+    font-size: 16px;
+
+    padding: 20px;
+    padding-left: 200px;
+    font-size: smaller;
+}
+
+.features {
+    padding-top: 0px;
+    padding-left: 9%;
+    font-size: 35px;
+}
+
+.feature1 {
+    display: flex;
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 12%;
+    align-items: center;
+}
+
+/* .imgfeature1 {
+    padding-right: ;
+} */
+
+.image2 {
+    margin-left: 615px;
+    margin-top: -152px;
+}
+.FOOTER ul{
+   
+   list-style-type: none;
+}
+.FOOTER ul li{
+    padding-top: 10px;
+}
+.FOOTER{
+    display: flex;
+}
